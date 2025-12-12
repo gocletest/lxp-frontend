@@ -1,0 +1,25 @@
+/* 기본 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body 기본값 복원 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6fa;
+  font-family: "Inter", "Pretendard", system-ui, sans-serif;
+}
+
+/* root 색상은 변경하지 않음 (Antd 기본 유지) */
+:root {
+  color-scheme: light;
+}
+
+/* 링크 기본 스타일 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
